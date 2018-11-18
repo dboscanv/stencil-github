@@ -1,0 +1,38 @@
+app-header {
+  #ionic-icon {
+    fill: #fff;
+    margin-top: 5px;
+    width: 3.5em;
+  }
+
+  #ionic-icon svg {
+    fill: #fff;
+    width: 4.4em;
+    height: 2.5em;
+  }
+
+  .tabs-bar {
+    order: 2;
+  }
+
+  ion-toolbar ion-button.header-button button {
+    color: white !important;
+  }
+
+  a {
+    opacity: 1 !important;
+  }
+
+  .header-button {
+    opacity: 0.6;
+    width: 5rem;
+  }
+
+  .active .header-button {
+    opacity: 1 !important;
+  }
+
+  .active button {
+    font-weight: bold !important;
+  }
+}

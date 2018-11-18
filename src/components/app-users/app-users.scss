@@ -1,0 +1,27 @@
+app-users {
+
+    .profilePicture {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        border: round($number: 100000)
+    }
+     
+    ion-img {
+        width: 20%;
+        clip-path: circle(50%)
+    }
+
+    .detail {
+        display: flex;
+        justify-content: flex-start;
+
+        span {
+            margin-left: 5px;
+        }
+    }
+
+    h1 {
+        color: var(--ion-color-dark);
+    }
+}
